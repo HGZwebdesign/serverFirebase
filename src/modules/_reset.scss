@@ -1,0 +1,35 @@
+/**
+ * -----------------------------------------------------------------------
+ *                                Reset CSS:
+ * -----------------------------------------------------------------------
+ */
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  border: 0;
+  font: inherit;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  text-align: center;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  cursor: auto;
+  text-decoration: none;
+  color: inherit;
+}

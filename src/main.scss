@@ -1,0 +1,66 @@
+@import "../src/modules/reset.scss";
+
+.highlighted {
+  background-color: #F2FF57;
+}
+
+button {
+  margin: 0.5rem;
+  width: 12rem;
+  height: 4rem;
+  font-size: 2rem;
+  border-radius: 20px;
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+
+  &:hover {
+    background-color: black;
+  }
+
+  &:disabled,
+  &[disabled] {
+    background-color: #cccccc;
+  }
+
+  &#sushi-list-button {}
+
+  &#sushi-add-button {}
+
+  &.delete,
+  &.edit {
+    display: inline-block;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    padding: 0 1rem;
+    width: auto;
+    height: 1rem;
+    font-size: inherit;
+  }
+}
+
+input {
+  margin: 0.1rem;
+  padding: 0.5rem;
+  border: 1px solid crimson;
+  border-radius: 10px;
+}
+
+#sushi-list {
+  text-align: left;
+
+  div {
+    display: inline-table;
+    padding: 0.5rem;
+    width: 25%;
+
+    h2 {
+      padding: 0.5rem 0;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+}
