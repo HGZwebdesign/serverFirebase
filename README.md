@@ -1,6 +1,6 @@
 # Firebase server test
 
-**Link:** https://hgzwebdesign.github.io/serverFirebase
+**Link:** https://hgzwebdesign.github.io/serverFirebase/
 
 Test of Firebase server.
 
