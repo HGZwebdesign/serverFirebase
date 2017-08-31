@@ -74,11 +74,11 @@ $(() => {
 
     let getName = $('#get-name').val();
     let getDescription = $('#get-description').val();
-    let getSize = $('#get-size').val();
+    // let getSize = $('#get-size').val();
 
     let ref2 = firebase.database().ref('sushi/');
 
-    ref2.push({name: getName, description: getDescription, size: getSize, editable: true, id: firebase.database.ServerValue.TIMESTAMP});
+    ref2.push({name: getName, description: getDescription, size: 2, editable: true, id: firebase.database.ServerValue.TIMESTAMP});
 
     showList();
   }

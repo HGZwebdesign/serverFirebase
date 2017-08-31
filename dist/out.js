@@ -14756,11 +14756,11 @@ $(function () {
 
     var getName = $('#get-name').val();
     var getDescription = $('#get-description').val();
-    var getSize = $('#get-size').val();
+    // let getSize = $('#get-size').val();
 
     var ref2 = __WEBPACK_IMPORTED_MODULE_0_firebase__["database"]().ref('sushi/');
 
-    ref2.push({ name: getName, description: getDescription, size: getSize, editable: true, id: __WEBPACK_IMPORTED_MODULE_0_firebase__["database"].ServerValue.TIMESTAMP });
+    ref2.push({ name: getName, description: getDescription, size: 2, editable: true, id: __WEBPACK_IMPORTED_MODULE_0_firebase__["database"].ServerValue.TIMESTAMP });
 
     showList();
   };
