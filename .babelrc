@@ -1,0 +1,29 @@
+{
+	"presets": [
+		[
+			"@babel/preset-env",
+			{
+				"targets": {
+					"node": true
+				}
+			}
+		]
+	],
+
+	"plugins": [
+		["@babel/plugin-proposal-decorators", {"legacy": true}],
+		// class { handleClick = () => { } }
+		["@babel/plugin-proposal-class-properties", {"loose": true}],
+		// Support import() syntax
+		"@babel/plugin-syntax-dynamic-import",
+		// Accessing deeply nested properties: { obj?.foo?.bar?.baz }
+		"@babel/plugin-proposal-optional-chaining"
+	],
+
+	"env": {
+		"test": {
+			// jest needs it for aliases compilation (via webpack?)
+			"plugins": ["@babel/plugin-transform-modules-commonjs"]
+		}
+	}
+}
