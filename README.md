@@ -2,7 +2,7 @@
 
 **Link:** https://hgzdev.github.io/sushi-firebase/
 
-Test of Firebase server.
+Test of Firebase database.
 
 ## Technologies used in this project:
 
