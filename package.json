@@ -8,26 +8,26 @@
 		"dev": "webpack-dev-server --mode development --devtool inline-source-map --hot"
 	},
 	"dependencies": {
-		"@babel/polyfill": "^7.10.1",
-		"firebase": "^7.15.3"
+		"@babel/polyfill": "^7.10.4",
+		"firebase": "^7.17.1"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.9.6",
-		"@babel/plugin-proposal-class-properties": "^7.8.3",
-		"@babel/plugin-proposal-decorators": "^7.8.3",
-		"@babel/plugin-proposal-optional-chaining": "^7.9.0",
+		"@babel/core": "^7.10.5",
+		"@babel/plugin-proposal-class-properties": "^7.10.4",
+		"@babel/plugin-proposal-decorators": "^7.10.5",
+		"@babel/plugin-proposal-optional-chaining": "^7.10.4",
 		"@babel/plugin-syntax-dynamic-import": "^7.8.3",
-		"@babel/plugin-transform-modules-commonjs": "^7.9.6",
-		"@babel/preset-env": "^7.9.6",
+		"@babel/plugin-transform-modules-commonjs": "^7.10.4",
+		"@babel/preset-env": "^7.10.4",
 		"babel-loader": "^8.1.0",
 		"babel-plugin-webpack-alias": "^2.1.2",
-		"webpack": "^4.43.0",
-		"webpack-cli": "^3.3.11",
-		"webpack-dev-server": "^3.11.0",
-		"sass": "^1.26.8",
-		"sass-loader": "^8.0.2",
+		"css-loader": "^4.0.0",
+		"sass": "^1.26.10",
+		"sass-loader": "^9.0.2",
 		"style-loader": "^1.2.1",
-		"css-loader": "^3.6.0"
+		"webpack": "^4.44.0",
+		"webpack-cli": "^3.3.11",
+		"webpack-dev-server": "^3.11.0"
 	},
 	"author": "HGZ",
 	"license": "ISC"
